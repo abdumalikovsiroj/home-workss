@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+  }
+  .header__home {
+      
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    padding: 18px 40px;
+    background-color: #f4f5f8;
+  }
+  /* .header--left */
+  .header--left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .header--left a {
+    color: #161616;
+    font-family: Golos;
+    font-size: 20px;
+  }
+  .header__right--content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .style {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .style a {
+    color: #757575;
+    font-size: 14px;
+  }
+  /* header--right */
+  .header--right {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  /* header-home2 */
+  .header-home2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 28px 40px 32px;
+    justify-content: space-between;
+    background: #fff;
+  }
+  
+  /* header-home2--left */
+  
+  .header-home2--left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .header-home2--left a {
+    color: #161616;
+    font-size: 16px;
+    background-color: #F4F5F8;
+    padding: 12px 20px;
+    border-radius: 8px;
+  }
+  .header-home2--left a:hover {
+      background-color: #202226;
+      color: #fff;
+      transition: .4s;
+  }
+  
+  /* header-home2--right */
+  
+  .header-home2--right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+  }
+  .header-home2--right img {
+      padding: 10px;
+      background-color: #f4f5f8;
+      border-radius: 8px;
+  
+  }
+  .header-home2--right img:hover {
+      background-color: #161616;
+      fill: #fff;
+      transition: .4s;
+      color: #fff;
+  }
+  .header-home2--right a {
+      padding: 12px 20px ;
+      border-radius: 8px;
+      color: #161616;
+      background-color: #f4f5f8;
+  }
+  .header-home2--right a:hover {
+      background-color: #202226;
+      color: #fff;
+      transition: .4s;
+  }
+  .hr{
+    width: 1200px;
+    height: 1px;
+    background: #E9E9E9;
+
+  }
+  .section__content{
+    padding-top: 300px;
+    
+    
+  }
+  .service{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #E9E9E9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  
